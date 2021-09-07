@@ -1,0 +1,234 @@
+  .container {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 24px;
+  }
+  a:link{
+    color: deeppink;
+    font-family: 'Anton', sans-serif;
+  }
+  a:visited{
+    color:deeppink;
+  }
+  a:hover {
+    color: #32CD32;
+  }
+  body {
+    background-color: #111111;
+  }
+  h1 {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    color: deeppink;
+    font-family: 'Anton', sans-serif;
+  }
+  #contactInfo {
+    border-bottom: deeppink solid 1px;
+    padding: 4px 0  4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Anton', sans-serif;
+  }
+  #contactInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.25em 0 0.25em;
+    color: deeppink;
+  }
+  .customRow {
+    margin-top: 16px;
+    display: flex;
+  }
+  .customRow ul {
+    margin-top: 0;
+  }
+  .customRow h2 {
+    margin-right: 16px;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 8px;
+  }
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 8px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  .caption {
+      margin-top: 8px;
+      display: block;
+  }
+  .img-small {
+    height: 150px;
+  }
+  /*modified img in quiz-> readme.html*/
+  .img-medium {
+    height: 550px;
+    margin-right: 36px;
+  }
+  .footer {
+      position: fixed;
+      bottom: 0;
+      width: 55%;
+      background-color: red;
+      color: deeppink;
+      text-align: center;
+  }
+  /*Navigation bar and footer css code*/
+  .sharebar {
+    color:  deeppink;
+    background-color: #272822;
+    width: 100vw;
+  }
+  .sharebar * {
+    margin: 0;
+    padding: 0;
+  }
+  .sharebar a {
+    color: deeppink;
+    padding: 5px;
+  }
+  .topbar-inner {
+    padding: 10px 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .topbar-inner .login{
+    float: right;
+  }
+  .topbar-inner a{
+    color: deeppink;
+    font-family: 'Anton', sans-serif;
+  }
+  .topbar-inner a:visited{
+    color:deeppink;
+  }
+  .topbar-inner a:hover{
+    color: #32CD32;
+  }
+  .bottombar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+  }
+  .bottombar-2{
+    margin-top: 10px;
+  }
+  .bottom-inner {
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Anton', sans-serif;
+  }
+  /*Change the style of word in resume.html*/
+  hr{
+    color:hotpink;
+    font-family: 'Libre Baskerville', serif;
+  }
+  h2{
+    color: deeppink ;
+    font-family: 'Libre Baskerville', serif;
+  }
+  b{
+    color: deeppink ;
+    font-family: 'Libre Baskerville', serif;
+  }
+  /*Lab 5 css*/
+  #bodyBlock {
+    width: 700px;
+    margin: auto;
+  }
+  #output {
+    margin: 1em 0;
+    color: black;
+    background-color: #fee;
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  fieldset {
+    padding-top: 1em; 
+    color: white;
+    margin-top: 24px;
+    margin-bottom:12px;
+  }
+  .field {
+    width: 120px;
+    margin: 0 0.5em 0.5em 0;
+    float: left;
+    clear: left;
+    text-align: right;
+    font-family: 'Libre Baskerville', serif;
+  }
+  .value {
+    margin: 0 0 0.5em 0;
+  }
+  #save {
+    float: right;
+  }
+  textarea:focus {
+    background: #fee;
+  }
+  input:focus{
+    background: #fee;
+  }
+  legend{
+    font-family: 'Libre Baskerville', serif;
+  }
+  button{
+    font-family: 'Libre Baskerville', serif;
+  }
+  input{
+    font-family: 'Libre Baskerville', serif;
+  }
+  #bodyBlock {
+  width: 700px;
+  margin: auto;
+  }
+  #showHideBlock {
+  padding: 1em 1em 0 1em;
+  border: 1px solid white;
+  }
+  #showHideBlock p {
+  margin: 0 0 1em 0; 
+  color: white;
+  }
+  #showHideLinks {
+  margin-bottom: 1em; 
+  }
+  #toggleText {
+  display: block;
+  float: right;
+  }
+  h1:hover {
+  cursor: pointer; 
+  }
+  .red {
+  color: red;
+  background-color: transparent;
+  }
+
