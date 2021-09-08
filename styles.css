@@ -60,6 +60,142 @@ img{
     margin: auto;
     border: 1px solid black;
     padding: 10px;
+    background-image: url(sky.jpeg);
+    background-position: top;
+    background-size: 95%;
+  }
+  
+  #t_h1 {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+
+  }
+  #t_h2 {
+    /*float: left;
+    clear: left; */
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    text-decoration: underline;
+    /* border-bottom: 2px solid #333; */
+  }
+
+  #t_h3 {
+    font-size: 0.8em;
+  
+  }
+  #t_contactInfo {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 4px 0  4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #t_contactInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.25em 0 0.25em;
+  }
+
+  /* this lists without bullet points in education id */
+  #t_education li {
+    list-style: none;
+    padding: 0; 
+  }
+  
+  /* to keep elements on the same line with more spacing */
+  #t_rightspace {
+    display:inline-block;
+    margin-right:160px; 
+    width: auto;
+  }
+
+/* does the same thing as rightspace id with less spacing to keep elements on the same line*/
+  #t_rightspace2 {
+    display:inline-block;
+    margin-right:40px; 
+    width: auto;
+  }
+
+  /* element right of the space for education id */
+  .t_inline {
+    display:inline-block; 
+    width: auto;
+    margin-left:410px; 
+  }
+
+  .t_resume_link {
+      position: right;
+      margin-right: 200px;
+      
+  }
+/* end of Tiffany's resume css */
+
+.top-header-bar{
+    background-color: #18C3f8;
+    height:350px;
+    
+    width:100%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    border-radius:  25px 70px;
+    font-size: 38px;
+    padding-left: 25px;
+    margin-right: 100px;
+    color:#323039;
+  
+}
+
+.our-team  {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: px;
+color:#323039;
+}
+
+.past-projects {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: px;
+    margin-left: 5px;
+    margin-top: 300px;
+color:#323039;
+}
+
+.Project1{
+    height: 200px;
+    width: 400px;
+    margin-right:700px;
+    margin-top: 30px;
+}
+
+.project_title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 250px;
+    margin-left: 150px;
+    font-size: 28px;
+    
+}
+.project_description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 35px;
+    
+}
+
+/* Tiffany's resume css */
+
+#t_body {
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif; 
+    width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
   }
   #t_h1 {
     text-align: center; 
@@ -128,57 +264,3 @@ img{
       
   }
 /* end of Tiffany's resume css */
-
-.top-header-bar{
-    background-color: #18C3f8;
-    height:350px;
-    
-    width:100%;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5px;
-    border-radius:  25px 70px;
-    font-size: 38px;
-    padding-left: 25px;
-    margin-right: 100px;
-    color:#323039;
-  
-}
-
-.our-team  {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: px;
-color:#323039;
-}
-
-.past-projects {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: px;
-    margin-left: 5px;
-    margin-top: 300px;
-color:#323039;
-}
-
-.Project1{
-    height: 200px;
-    width: 400px;
-    margin-right:700px;
-    margin-top: 30px;
-}
-
-.project_title{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 250px;
-    margin-left: 150px;
-    font-size: 28px;
-    
-}
-.project_description{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 35px;
-    
-}
-
