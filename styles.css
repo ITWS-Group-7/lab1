@@ -125,9 +125,23 @@ img{
   .t_inline {
     display:inline-block; 
     width: auto;
-    margin-left:410px; 
+    margin-left:41px; 
   }
 
+  /* element positions profile pic to right */
+  #t_image {
+    display:inline-block; 
+    width: auto;
+    margin-left:410px;
+    border-radius: 3%;
+  }
+
+  /* element keeps p tag contents in line */
+  #p_inline {
+      display: inline;
+  }
+
+  /* element places resume link under profile pic on index page*/
   .t_resume_link {
       position: right;
       margin-right: 200px;
