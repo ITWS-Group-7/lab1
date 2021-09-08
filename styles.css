@@ -1,107 +1,331 @@
-.name{
-    text-align: left;
-    margin-top: 30px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    margin-left: 10px;
-
-}
-.subtitle{
-    text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: inherit;
-    
-}
-.objective{
-    margin-top: 50px;
-    margin-left: inherit;
+/*GROUP PROJECT PART 1 CSS */
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.date{
-    color:rgb(143, 143, 143);
-    
+.top-header-bar {
+  background-color: #788CC4;
+  background-image: linear-gradient(#36d1dc, #5b86e5);
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  border-bottom-left-radius: 50% 38%;
+  border-bottom-right-radius: 50% 38%;
+  font-size: 38px;
+  padding-left: 25px;
+  color: #363342;
 }
 
-hr{
-    background-color: rgb(202, 197, 197);
-    height: 0;
-    border-top: 1px;
-
-    
+.our-team {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #323039;
+  margin-top: 90px;
+  padding-top: 20px;
 }
 
-.heading{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 50px;
-    margin-left: inherit;
+.profilepic {
+  width: 205px;
+  height: 190px;
+  margin-top: 15px;
 }
 
-.text{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: inherit;
-   
+.person {
+  display: inline-block;
 }
 
-img{
-    height: 170px;
-    width: 170px;
-    float:right;
-   margin-right: 100px;
-   padding-bottom: 30px;
-   
-    
-}
-
-.top-header-bar{
-    background-color: #18C3f8;
-    height:350px;
-    
-    width:100%;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5px;
-    border-radius:  25px 70px;
-    font-size: 38px;
-    padding-left: 25px;
-    margin-right: 100px;
-    color:#323039;
-  
-}
-
-.our-team  {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: px;
-color:#323039;
+.name {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .past-projects {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: px;
-    margin-left: 5px;
-    margin-top: 300px;
-color:#323039;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 130px;
+  color: #323039;
 }
 
-.Project1{
-    height: 200px;
-    width: 400px;
-    margin-right:800px;
-    margin-top: 30px;
+.projectpic {
+  width: 370px;
+  height: 300px;
+  margin-left: 115px;
+  margin-top: 15px;
 }
 
-.project_title{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 250px;
-    margin-left: 150px;
-    font-size: 28px;
-    
-}
-.project_description{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-left: 35px;
-    
+.projectname {
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 
+/* ROMA RESUME */
+.name {
+  text-align: left;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.subtitle {
+  text-align: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: inherit;
+}
+
+.objective {
+  margin-top: 50px;
+  margin-left: inherit;
+}
+
+.date {
+  color: rgb(143, 143, 143);
+}
+
+hr {
+  background-color: rgb(202, 197, 197);
+  height: 0;
+  border-top: 1px;
+}
+
+.heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 50px;
+  margin-left: inherit;
+}
+
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: inherit;
+}
+
+img {
+  height: 170px;
+  width: 170px;
+  float: right;
+  margin-right: 100px;
+  padding-bottom: 30px;
+}
+
+/*SEAN RESUME CODE */
+.sean_container {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.body_sean {
+  background-color: #111111;
+}
+
+.h1_sean {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: deeppink;
+  font-family: 'Anton', sans-serif;
+}
+
+#contactInfo {
+  border-bottom: deeppink solid 1px;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-family: 'Anton', sans-serif;
+}
+
+#contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+  color: deeppink;
+}
+
+.customRow {
+  margin-top: 16px;
+  display: flex;
+}
+
+.customRow ul {
+  margin-top: 0;
+}
+
+.customRow h2 {
+  margin-right: 16px;
+  margin-top: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 8px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.caption {
+  margin-top: 8px;
+  display: block;
+}
+
+.img-small {
+  height: 150px;
+}
+
+/*modified img in quiz-> readme.html*/
+.img-medium {
+  height: 550px;
+  margin-right: 36px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 55%;
+  background-color: red;
+  color: deeppink;
+  text-align: center;
+}
+
+/*Navigation bar and footer css code*/
+.bottombar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+}
+
+.bottombar-2 {
+  margin-top: 10px;
+}
+
+.bottom-inner {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Anton', sans-serif;
+}
+
+/*Change the style of word in resume.html*/
+.sean_h2 {
+  color: deeppink;
+  font-family: 'Libre Baskerville', serif;
+}
+
+b {
+  color: deeppink;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* Tiffany's resume css */
+#t_body {
+  font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+  width: 1000px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#t_h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+}
+
+#t_h2 {
+  /*float: left;
+    clear: left; */
+  width: 150px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 1.2em;
+  text-decoration: underline;
+  /* border-bottom: 2px solid #333; */
+}
+
+#t_h3 {
+  font-size: 0.8em;
+}
+
+#t_contactInfo {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 4px 0 4px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#t_contactInfo li {
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
+}
+
+/* this lists without bullet points in education id */
+#t_education li {
+  list-style: none;
+}
+
+/* to keep elements on the same line with more spacing */
+#t_rightspace {
+  display: inline-block;
+  margin-right: 160px;
+  width: auto;
+}
+
+/* does the same thing as rightspace id with less spacing to keep elements on the same line*/
+#t_rightspace2 {
+  display: inline-block;
+  margin-right: 40px;
+  width: auto;
+}
+
+/* element right of the space for education id */
+.t_inline {
+  display: inline-block;
+  width: auto;
+}
+
+.t_resume_link {
+  position: right;
+  margin-right: 200px;
+}
+
+/* end of Tiffany's resume css */
+/*RAPH RESUME CODE */
