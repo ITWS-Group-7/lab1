@@ -20,7 +20,7 @@
         font-variant: small-caps;
 
       }
-      #r_h2 {
+      .r_h2 {
         text-align: left;
         clear:middle;
         float:middle;
@@ -45,7 +45,12 @@
 
       }
 
-      
+      #r_vcard{
+        white-space: nowrap;
+        padding: 4px 0  4px 0;
+        margin: 0;
+        text-align: center;
+      }
       #r_contactInfo {
         border-top: 4px solid brown;
         border-bottom: 4px solid brown;
@@ -64,12 +69,12 @@
     </style>
   </head>
   <!-- This is the body of the paragraph, containing all the information about me-->
-  <r_body>
-  <body>
-    <h1>Shun Hang Raphael Chung</h1>
+  
+  <body id = "r_body">
+    <h1 id = "r_h1">Shun Hang Raphael Chung</h1>
       <ul id="r_contactInfo">
         <li>518-961-1968</li>
-        <li><div class="vcard">
+        <li><div class="r_vcard">
             <a class="email" href="mailto:chungs10@pri.edu">
               chungs10@rpi.edu
             </a>
@@ -84,28 +89,28 @@
         </li>
         <li>linkedin.com/in/raphaelchung/</li>
       </ul>
-    <h2>PROFILE</h2>
+    <h2 class = "r_h2">PROFILE</h2>
       <!-- These are the skills I posses in a listed format-->
         <ul id ="r_profile">
           <li>Information Technology and Web Science undergraduate</li>
           <li>Fluent in English and proficient in MS Word, Excel, and Powerpoint</li>
           <li>Possesses rudimentary programming knowledge in C++ and Java</li>
         </ul> 
-    <h2>Objective Statement</h2>
+    <h2 class = "r_h2" >Objective Statement</h2>
       <!-- These are the skills I posses in a listed format-->
     <ul id ="r_objective">
           <li>Sharpen probelm-solviing skills in information technology; be a subject matter expert in information security</li>
           <li>Able to identify IT implications and solutions of a business or organization challenge</li>
           <li>Partner with people of diverse cultures &amp; capacities</li>
         </ul> 
-    <h2>RELEVEANT COURSEWORK</h2>
+    <h2 class= "r_h2">RELEVEANT COURSEWORK</h2>
         <!-- These are the accomplishments-->
         <ul id = "r_coursework">
           <li>Data Structure, C++ Programming, Foundations of Computer Science, Web System development</li>
           <li>Intro to Algorithms, Operating Systems, Intro to HUman Computer Interaction</li>
           <li> Computer Organization</li>
         </ul>
-    <h2>WORK EXPERIENCE</h2>
+    <h2 class= "r_h2">WORK EXPERIENCE</h2>
         <!-- These are the accomplishments-->
         <ul id = "r_secondary">
           <li>
@@ -129,7 +134,7 @@
           </ul>
   
 
-    <h2>EDUCATION</h2>
+    <h2 class= "r_h2">EDUCATION</h2>
         <!-- This is the education and accomplishments through education-->
             <ul id = "r_secondary2">
                 <li>Institutionn: International Christian School</li>
@@ -149,7 +154,7 @@
             </ul>
  
 
-    <h2>SKILLS &amp; OTHERS</h2>
+    <h2 class= "r_h2">SKILLS &amp; OTHERS</h2>
         <ul id = "r_skills">
             <li>Languages: English</li>
             <li>Programming language: C++, Java, Python, SQL</li>
@@ -167,5 +172,5 @@
         <img src="../lab1/images/raph_profile.png" height="500" width="500"  alt="raph_profile_pic"/>
         </div>
   </body>
-</r_body>
+
 </html>
