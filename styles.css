@@ -62,7 +62,7 @@ img{
     padding: 10px;
     background-image: url(sky.jpeg);
     background-position: top;
-    background-size: 95%;
+    background-size: 200%;
   }
   
   #t_h1 {
@@ -72,15 +72,12 @@ img{
     font-variant: small-caps;
 
   }
-  #t_h2 {
-    /*float: left;
-    clear: left; */
+  .t_h2 {
     width: 150px;
     margin: 20px 0 0 0;
     padding: 0;
     font-size: 1.2em;
     text-decoration: underline;
-    /* border-bottom: 2px solid #333; */
   }
 
   #t_h3 {
@@ -108,7 +105,7 @@ img{
   }
   
   /* to keep elements on the same line with more spacing */
-  #t_rightspace {
+  .t_rightspace {
     display:inline-block;
     margin-right:160px; 
     width: auto;
@@ -136,17 +133,11 @@ img{
     border-radius: 3%;
   }
 
-  /* element keeps p tag contents in line */
-  #p_inline {
+  /* element keeps any tag's contents in-line */
+  #inline {
       display: inline;
   }
 
-  /* element places resume link under profile pic on index page*/
-  .t_resume_link {
-      position: right;
-      margin-right: 200px;
-      
-  }
 /* end of Tiffany's resume css */
 
 .top-header-bar{
@@ -169,7 +160,7 @@ img{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: px;
-color:#323039;
+    color:#323039;
 }
 
 .past-projects {
@@ -201,80 +192,3 @@ color:#323039;
     margin-left: 35px;
     
 }
-
-/* Tiffany's resume css */
-
-#t_body {
-    font-family: "Times New Roman", Arial, Helvetica, sans-serif; 
-    width: 1000px;
-    margin: auto;
-    border: 1px solid black;
-    padding: 10px;
-  }
-  #t_h1 {
-    text-align: center; 
-    margin: 0;
-    padding: 0;
-    font-variant: small-caps;
-
-  }
-  #t_h2 {
-    /*float: left;
-    clear: left; */
-    width: 150px;
-    margin: 20px 0 0 0;
-    padding: 0;
-    font-size: 1.2em;
-    text-decoration: underline;
-    /* border-bottom: 2px solid #333; */
-  }
-
-  #t_h3 {
-    font-size: 0.8em;
-  
-  }
-  #t_contactInfo {
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    padding: 4px 0  4px 0;
-    margin: 0;
-    text-align: center;
-    white-space: nowrap;
-  }
-  #t_contactInfo li {
-    display: inline;
-    list-style: none;
-    margin: 0 0.25em 0 0.25em;
-  }
-
-  /* this lists without bullet points in education id */
-  #t_education li {
-    list-style: none;
-  }
-  
-  /* to keep elements on the same line with more spacing */
-  #t_rightspace {
-    display:inline-block;
-    margin-right:160px; 
-    width: auto;
-  }
-
-/* does the same thing as rightspace id with less spacing to keep elements on the same line*/
-  #t_rightspace2 {
-    display:inline-block;
-    margin-right:40px; 
-    width: auto;
-  }
-
-  /* element right of the space for education id */
-  .t_inline {
-    display:inline-block; 
-    width: auto;
-  }
-
-  .t_resume_link {
-      position: right;
-      margin-right: 200px;
-      
-  }
-/* end of Tiffany's resume css */
